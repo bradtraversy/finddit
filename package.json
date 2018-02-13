@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "parcel": "parcel index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.5.1",
+    "postcss-modules": "^1.1.0"
+  }
 }
